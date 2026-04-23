@@ -21,7 +21,15 @@ public class configuracionBase
     public static String UrlDemo = "https://www.saucedemo.com/";
     public static String Username = "standard_user";
     public static String Password = "secret_sauce";
-
+    
+    //Textos casos 5 a l7
+    public static String TitYourCart = "Your Cart";
+    public static String TitCheckoutInformation = "Checkout: Your Information";
+    public static String TitCheckoutOverview ="Checkout: Overview";
+    public static String CheckOutTxtAddName= "CARO";
+    public static String CheckOutTxtAddLastName= "CARO2";
+    public static String CheckOutTxtAddPostalCode= "1010101";
+    
     @BeforeAll
     public static void AntesDeTodo() throws Exception {
         System.out.println("Rutina: Before All (Antes de Todos los Casos de Prueba)");
